@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Interface Example</title>
+</head>
+<body>
+    <h1>Dynamic Interface Example</h1>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <script>
+        // Get a reference to the <ul> element
+        var myList = document.getElementById("myList");
+
+        // Create an array of items to add to the list
+        var itemsToAdd = ["Item 4", "Item 5", "Item 6"];
+
+        // Loop through the array and add each item to the list
+        for (var i = 0; i < itemsToAdd.length; i++) {
+            var newItem = document.createElement("li");
+            newItem.textContent = itemsToAdd[i];
+            myList.appendChild(newItem);
+        }
+    </script>
+</body>
+</html>
