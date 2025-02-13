@@ -16,7 +16,7 @@
     //  age:22,
     //  hobbies:["sleeping","cricket","youtube","music"]
     // }
-// how to access data from object
+                                    // how to access data from object
 // console.log(person1)
 // console.log(person1.age)
 // console.log(person1.name)
@@ -32,11 +32,11 @@ const student={
     age:[22,23,43,2,3,2,3,2,3],
     'person hobies':['guitar','codding',]
 }
-console.log(student['person hobies'])
-console.log(student.names.slice(0))
-console.log(student['age'])
+// console.log(student['person hobies'])
+console.log(student.names.slice(0,3))
+// console.log(student['age'])
 
-student.phone=[555,88888888,88909000]
-console.log(student['phone'])
+// student.phone=[555,88888888,88909000]
+// console.log(student['phone'])
 
 // in object key is by default string  

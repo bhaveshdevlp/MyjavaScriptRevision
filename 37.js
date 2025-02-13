@@ -1,4 +1,4 @@
-//defference between Dot and bracket notation
+//difference between Dot and bracket notation
 const person1={
     name:"bhavesh",
     age:22,
